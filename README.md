@@ -2,6 +2,9 @@
 
 A secure and real-time messaging API with end-to-end encryption support.
 
+> [!TIP]
+> See also [Whisper-Desktop client](https://github.com/hikanio/Whisper-Desktop).
+
 ## Overview
 
 Whisper-Server is a RESTful API built with ASP.NET Core that provides messaging services with a focus on security and privacy. The server manages user authentication, conversation management, and real-time message delivery between users.
