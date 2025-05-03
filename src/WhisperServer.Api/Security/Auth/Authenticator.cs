@@ -53,6 +53,8 @@ public class Authenticator : IAuthenticator
 
         return new JwtDto()
         {
+            UserId = userId.ToString(),
+            Username = username,
             AccessToken = accessToken
         };
     }
