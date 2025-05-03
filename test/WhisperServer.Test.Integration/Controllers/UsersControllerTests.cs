@@ -32,6 +32,8 @@ public sealed class UsersControllerTests : BaseControllerTests, IDisposable
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         var jwt = await response.Content.ReadFromJsonAsync<JwtDto>();
         Assert.NotNull(jwt);
+        Assert.False(string.IsNullOrWhiteSpace(jwt.UserId));
+        Assert.False(string.IsNullOrWhiteSpace(jwt.Username));
         Assert.False(string.IsNullOrWhiteSpace(jwt.AccessToken));
     }
 
