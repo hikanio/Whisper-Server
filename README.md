@@ -1,3 +1,5 @@
+![unit tests](https://img.shields.io/badge/unit_tests-passing-dark_green)
+![integration tests](https://img.shields.io/badge/integration_tests-passing-dark_green)
 # Whisper-Server
 
 A secure and real-time messaging API with end-to-end encryption support.
